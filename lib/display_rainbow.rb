@@ -1,7 +1,7 @@
 
-name =
-def display_rainbow('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet')
+rainbow_array = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+def display_rainbow (rainbow_array)
 
-  puts "R: #{display_rainbow[0]}, O: #{display_rainbow[1]}, Y: #{display_rainbow[2]}, G: #{display_rainbow[3]}, B: #{display_rainbow[4]}, I: #{display_rainbow[5]}, V: #{display_rainbow[6]}"
+  puts "R: #{rainbow_array[0]}, O: #{rainbow_array[1]}, Y: #{rainbow_array[2]}, G: #{display_rainbow[3]}, B: #{rainbow_array[4]}, I: #{rainbow_array[5]}, V: #{rainbow_array[6]}"
 
 end
